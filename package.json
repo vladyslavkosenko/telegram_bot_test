@@ -1,0 +1,20 @@
+{
+  "name": "telegram_bot_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0",
+    "nodemon": "^2.0.20",
+    "telegraf": "^4.11.2",
+    "telegraf-session-local": "^2.1.1",
+    "telegram-keyboard": "^2.3.2"
+  }
+}
